@@ -1,7 +1,7 @@
-const Sprayer = extend("sprayer", PowerTurret, () => {
+const Sprayer = extend("sprayer", PowerTurret, {
     buildVisibility: BuildVisibility.shown,
-    shootType: extend(BombBulletType, () => {
-        fragBullet: extend(BasicBulletType, () => {
+    shootType: extend(BombBulletType, {
+        fragBullet: extend(BasicBulletType, {
         })
-    });
+    }),
 });

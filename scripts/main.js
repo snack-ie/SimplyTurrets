@@ -1,1 +1,1 @@
-print("yo")
+require("turrets")
